@@ -5,7 +5,6 @@
     --cloud:#ecf0f1;
     --asbestos:#7f8c8d;
     --concrete:#95a5a6;
-    --dracorchid:#2d3436;
     --pink:#ffcccc;
     --picopink: #fd79a8;
 
@@ -30,7 +29,7 @@ main
 }
 .colorBack
 {
-    background-color: var(--dracorchid);
+    background-color: var(--pink);
     width: 100%;
     
 }
@@ -49,7 +48,7 @@ main
 .titleColor
 {
     text-decoration: none;
-    color: var(--cloud);
+    color: var(--ffcccc);
     font-size: 4em;
 
 
@@ -92,4 +91,10 @@ footer p
 {
     color: var(--cloud);
     padding: 15px 20px;
+}
+
+img{
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
 }

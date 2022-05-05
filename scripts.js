@@ -45,7 +45,7 @@ const createTable = (datas) => {
     let image = document.createElement('img');
     image.classList.add('card-img-top','w-25')
     image.src = object.image
-    image.alt = 'Vêtement'
+    image.alt = 'Photo du produit'
         
     let globalCard = document.createElement('div');
     globalCard.classList.add('card-body');
@@ -108,3 +108,5 @@ let allWearing = () => {
     }
     
     allWearing();
+
+ 

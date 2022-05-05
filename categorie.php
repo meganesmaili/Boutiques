@@ -10,7 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js" defer></script>
+    <script src="fonctions.js" defer></script>
+    <script src="categories.js" defer></script>
+    
         <title>Boutiques.</title>
     </head>
     <body>
@@ -32,3 +34,20 @@
                 </div>
             </div>
         </header>
+        <main class="container pt-5">
+            <h2 class="fs-4 mb-3">
+                Catégorie : <span class="category-name">???</span>
+            </h2>
+            <!-- Chargement en cours... -->
+            <div class="text-center spinner-article py-5">
+                <div class="spinner-border text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <!-- Error fetch() -->
+            <div id="error" class="alert alert-danger d-none"></div>
+            <!-- Listes des articles -->
+            <div id="listProducts" class="row"></div>
+        </main>
+    </body>
+</html>
